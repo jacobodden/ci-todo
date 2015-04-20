@@ -63,7 +63,7 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> '',
+	'dsn'	=> 'mysql:host=localhost;dbname=citodo',
 	'hostname' => 'localhost',
 	'username' => 'todo_user',
 	'password' => 'todo_pass',
